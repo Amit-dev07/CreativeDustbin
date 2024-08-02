@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    margin-bottom: 20px;
+}
+.header {
+    background: url('Images/Home\ Page\ Intro\ Image\ 1.png') no-repeat center center;
+    background-size: cover;
+    color: white;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.header h1 {
+    font-size: 3em;
+    color: red;
+    font-weight: 800;
+    margin : 0 !important;
+}
+
+.header .header-up{
+    position: relative;
+    top: -1rem;
+}
+.header p {
+    font-size: 1.5em;
+    color: black;
+    position: relative;
+    top: -0.5rem;
+}
+.header .tagline {
+    margin-bottom: 20px;
+}
+.services, .testimonials, .contact, .footer {
+    padding: 20px 0;
+    text-align: center;
+}
+.service-box {
+    width: 200px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.service-icon {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+.testimonial {
+    margin: 20px 0;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.form-control, .btn {
+    margin: 10px 0;
+}
+
+
+.testimonial p:first-of-type {
+    color: red;
+}
+

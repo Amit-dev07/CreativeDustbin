@@ -173,11 +173,13 @@
                     type : "POST",
                     url : "https://54.236.45.175/send-email",
                     data: $('#contactForm').serialize(),
-                    success: function(){
-                        location.href = "/mail_send.html"
+                    success: function(res){
+                        console.log("dfsa");
+                        location.href = "/CreativeDustbin/mail_send.html"
                     },
-                    error: function(){
-                        location.href = "/error.html"
+                    error: function(er){
+                        console.log("error",er)
+                        location.href = "/CreativeDustbin/error.html"
                     }
                 })
 
